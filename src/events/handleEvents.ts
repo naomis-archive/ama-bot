@@ -32,6 +32,24 @@ export const handleEvents = async (bot: ExtendedClient) => {
         await modal(bot, interaction);
       }
     });
+
+    bot.on("guildCreate", async (guild) => {
+      await sendDebugMessage(
+        bot,
+        `Joined guild ${guild.name} (${guild.id}) owned by ${
+          (
+            await guild.fetchOwner()
+          ).user.tag
+        } (${guild.ownerId})`
+      );
+    });
+
+    bot.on("guildDelete", async (guild) => {
+      await sendDebugMessage(
+        bot,
+        `Left guild ${guild.name} (${guild.id}) owned by ID (${guild.ownerId})`
+      );
+    });
   } catch (err) {
     await errorHandler(bot, "handle events", err);
   }
