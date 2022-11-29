@@ -61,6 +61,7 @@ export const modal = async (
             author: question.author || undefined,
           },
         ],
+        components: [],
       });
 
       await interaction.editReply({
@@ -95,6 +96,7 @@ export const modal = async (
             author: question.author || undefined,
           },
         ],
+        components: [],
       });
 
       await interaction.editReply({
