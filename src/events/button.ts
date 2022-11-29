@@ -67,6 +67,7 @@ export const button = async (
             author: embed.author || undefined,
           },
         ],
+        components: [],
       });
       await interaction.reply({
         content: "Question marked as answered!",
