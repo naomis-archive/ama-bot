@@ -55,7 +55,7 @@ export const modal = async (
               },
             ],
             footer: {
-              text: `Find the bot helpful? Consider donating to support its development! https://donate.naomi.lgbt`,
+              text: `Join our server: https://discord.gg/nhcarrigan`,
               icon_url: "https://cdn.nhcarrigan.com/profile.png",
             },
             author: question.author || undefined,
@@ -90,7 +90,7 @@ export const modal = async (
               },
             ],
             footer: {
-              text: `Find the bot helpful? Consider donating to support its development! https://donate.naomi.lgbt`,
+              text: `Join our server: https://discord.gg/nhcarrigan`,
               icon_url: "https://cdn.nhcarrigan.com/profile.png",
             },
             author: question.author || undefined,
