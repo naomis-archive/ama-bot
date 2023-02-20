@@ -63,7 +63,7 @@ export const ask: Command = {
       embed.setTitle("New Question");
       embed.setDescription(question);
       embed.setFooter({
-        text: `Find the bot helpful? Consider donating to support its development! https://donate.naomi.lgbt`,
+        text: `Join our server: https://discord.gg/nhcarrigan`,
         iconURL: "https://cdn.nhcarrigan.com/profile.png",
       });
 
