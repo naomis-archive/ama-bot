@@ -20,7 +20,7 @@ export const chatInput = async (
     if (!targetCommand) {
       await interaction.reply({
         content:
-          "This command does not exist??? Please reach out in our support server: https://discord.gg/nhcarrigan",
+          "This command does not exist??? Please reach out in our support server: https://chat.naomi.lgbt",
         ephemeral: true,
       });
       return;
