@@ -60,7 +60,7 @@ export const button = async (
               },
             ],
             footer: {
-              text: `Join our server: https://discord.gg/nhcarrigan`,
+              text: `Join our server: https://chat.naomi.lgbt`,
               // eslint-disable-next-line camelcase
               icon_url: "https://cdn.nhcarrigan.com/profile.png",
             },

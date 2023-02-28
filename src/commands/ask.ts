@@ -63,7 +63,7 @@ export const ask: Command = {
       embed.setTitle("New Question");
       embed.setDescription(question);
       embed.setFooter({
-        text: `Join our server: https://discord.gg/nhcarrigan`,
+        text: `Join our server: https://chat.naomi.lgbt`,
         iconURL: "https://cdn.nhcarrigan.com/profile.png",
       });
 
