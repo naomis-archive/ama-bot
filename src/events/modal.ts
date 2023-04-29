@@ -1,4 +1,3 @@
-/* eslint-disable camelcase */
 import { Colors, GuildMember, ModalSubmitInteraction } from "discord.js";
 
 import { ExtendedClient } from "../interfaces/ExtendedClient";

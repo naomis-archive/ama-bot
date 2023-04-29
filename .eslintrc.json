@@ -26,7 +26,7 @@
     "curly": ["error"],
     "require-atomic-updates": ["error"],
     "no-var": ["error"],
-    "camelcase": ["error"],
+    "camelcase": ["error", { "allow": ["icon_url"] }],
     "init-declarations": ["error", "always"],
     "require-await": ["error"],
     "no-param-reassign": ["error"],
