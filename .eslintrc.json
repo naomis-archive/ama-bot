@@ -1,3 +1,11 @@
 {
-  "extends": "@nhcarrigan"
+  "extends": "@nhcarrigan",
+  "rules": {
+    "camelcase": [
+      "error",
+      {
+        "allow": ["icon_url"]
+      }
+    ]
+  }
 }
