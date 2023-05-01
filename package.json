@@ -32,6 +32,7 @@
   "homepage": "https://github.com/nhcarrigan/ama-bot#readme",
   "devDependencies": {
     "@nhcarrigan/eslint-config": "1.1.1",
+    "@nhcarrigan/prettier-config": "1.0.1",
     "eslint": "8.39.0",
     "prettier": "2.8.8",
     "typescript": "5.0.4"
