@@ -1,12 +1,10 @@
-# Project Name
+# AMA Bot
 
-Project Description
+A bot designed to facilitate "Ask Me Anything" (AMA) events, by allowing for anonymous question submissions and on-platform answers.
 
 ## Live Version
 
-This page is not yet deployed.
-
-<!--This page is currently deployed. [View the live website.]()-->
+This page is currently deployed. [View the live website.](https://docs.nhcarrigan.com/#/ama-bot/index)
 
 ## Feedback and Bugs
 
