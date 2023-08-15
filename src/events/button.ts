@@ -1,10 +1,8 @@
 import {
   ActionRowBuilder,
   ModalBuilder,
-  TextInputBuilder,
-} from "@discordjs/builders";
-import {
   ButtonInteraction,
+  TextInputBuilder,
   Colors,
   GuildMember,
   PermissionFlagsBits,
