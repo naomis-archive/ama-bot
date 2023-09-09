@@ -58,7 +58,7 @@ export const button = async (
               },
             ],
             footer: {
-              text: `Join our server: https://chat.naomi.lgbt`,
+              text: `Join our server: https://chat.nhcarrigan.com`,
               icon_url: "https://cdn.nhcarrigan.com/profile.png",
             },
             author: embed.author || undefined,
