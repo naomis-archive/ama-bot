@@ -38,7 +38,7 @@ export const about: Command = {
         .setStyle(ButtonStyle.Link);
       const supportButton = new ButtonBuilder()
         .setLabel("Join our Support Server")
-        .setURL("https://chat.naomi.lgbt")
+        .setURL("https://chat.nhcarrigan.com")
         .setStyle(ButtonStyle.Link);
 
       const row = new ActionRowBuilder<ButtonBuilder>().addComponents(

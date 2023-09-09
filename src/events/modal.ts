@@ -54,7 +54,7 @@ export const modal = async (
               },
             ],
             footer: {
-              text: `Join our server: https://chat.naomi.lgbt`,
+              text: `Join our server: https://chat.nhcarrigan.com`,
               icon_url: "https://cdn.nhcarrigan.com/profile.png",
             },
             author: question.author || undefined,
@@ -89,7 +89,7 @@ export const modal = async (
               },
             ],
             footer: {
-              text: `Join our server: https://chat.naomi.lgbt`,
+              text: `Join our server: https://chat.nhcarrigan.com`,
               icon_url: "https://cdn.nhcarrigan.com/profile.png",
             },
             author: question.author || undefined,
